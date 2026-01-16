@@ -15,7 +15,6 @@ export const appwriteConfig = {
 
 export const client = new Client()
 	.setEndpoint(appwriteConfig.endpoint)
-	.setEndpointRealtime(appwriteConfig.endpoint)
 	.setProject(appwriteConfig.projectId);
 
 export const account = new Account(client);
